@@ -71,10 +71,10 @@ export default function XFTeamSection() {
             chapter three
           </p>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-4" style={{ color: 'oklch(0.28 0.04 55)' }}>
-            Cross-Meta Foundations
+            The Organization
           </h2>
           <p className="font-body text-lg max-w-3xl" style={{ color: 'oklch(0.45 0.04 55)' }}>
-            The XF org under Javier Oliván oversees Central Products, MAGIC, Monetization, Sales, 
+            The team under Javier Oliván includes Central Products, MAGIC, Monetization, Sales, 
             and Partnerships. Our team's culture is built on the foundation laid by three remarkable leaders 
             — and their shared DNA of international growth, data orientation, and relentless clarity.
           </p>
