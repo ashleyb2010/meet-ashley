@@ -24,13 +24,7 @@ const origins = [
     description: "Studied abroad at Universidad San Pablo through Hamilton College's program. Full Spanish language immersion. This is where my love for international living really took root.",
     position: { top: "35%", left: "44%" },
   },
-  {
-    id: "colombia",
-    label: "Colombia",
-    emoji: "🏅",
-    description: "Selected as a J. William Fulbright Fellow by the U.S. Department of State. An incredible honor that deepened my understanding of cross-cultural exchange and diplomacy.",
-    position: { top: "52%", left: "26%" },
-  },
+
   {
     id: "honduras",
     label: "Honduras",
