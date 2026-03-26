@@ -14,7 +14,7 @@ const origins = [
     id: "claremont",
     label: "Claremont, CA",
     emoji: "🎓",
-    description: "Claremont McKenna College — BA in International Relations & Anthropology, Cum Laude. Wrote an honors thesis called 'XOXO: A Linguistic Analysis of Electronic Flirtation.' Yes, really.",
+    description: "Claremont McKenna College — BA in International Relations & Anthropology, Cum Laude.",
     position: { top: "38%", left: "13%" },
   },
   {
