@@ -3,11 +3,10 @@
  * Organic Naturalism: warm terracotta, sage green, cream
  * Fonts: Playfair Display (display), DM Sans (body), Caveat (handwritten)
  */
-import { useEffect, useRef, useState } from "react";
-import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import HeroSection from "@/components/HeroSection";
 import OriginStory from "@/components/OriginStory";
 import CareerTimeline from "@/components/CareerTimeline";
+import DayInTheLife from "@/components/DayInTheLife";
 import XFTeamSection from "@/components/XFTeamSection";
 import FunFacts from "@/components/FunFacts";
 import ByTheNumbers from "@/components/ByTheNumbers";
@@ -23,6 +22,7 @@ export default function Home() {
       <HeroSection />
       <OriginStory />
       <CareerTimeline />
+      <DayInTheLife />
       <XFTeamSection />
       <FunFacts />
       <ByTheNumbers />
