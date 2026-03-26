@@ -2,12 +2,9 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const taglines = [
-  "Plant mom of 25+",
-  "Dog mom to Pippin",
-  "Globe-trotter (7 countries & counting)",
-  "The one who keeps the COO's world spinning",
-  "Fulbright Fellow turned tech ops leader",
-  "Arizona roots, global reach",
+  "Arizona roots. Global reach.",
+  "Keeping the COO's world running.",
+  "Dog Mom to Pippin.",
 ];
 
 export default function HeroSection() {
