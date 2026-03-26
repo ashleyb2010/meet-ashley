@@ -32,6 +32,13 @@ const origins = [
     description: "Davis Projects for Peace — led a Maternal Public Health Program in Intibuca. One of the most meaningful experiences of my life, working directly with communities in need.",
     position: { top: "46%", left: "23%" },
   },
+  {
+    id: "sanfrancisco",
+    label: "San Francisco, CA",
+    emoji: "🌉",
+    description: "Where I currently live and work. Home base for supporting Meta's COO and the Cross-Meta Foundations org. The city where desert roots meet global tech.",
+    position: { top: "36%", left: "11%" },
+  },
 ];
 
 export default function OriginStory() {
@@ -55,8 +62,7 @@ export default function OriginStory() {
             Where I Come From
           </h2>
           <p className="font-body text-lg max-w-2xl" style={{ color: 'oklch(0.45 0.04 55)' }}>
-            From the Arizona desert to the world stage — my story is one of curiosity, 
-            cultural immersion, and always saying yes to the next adventure.
+            From the Arizona desert to the world stage — my story is one of curiosity and cultural immersion.
           </p>
         </motion.div>
       </div>

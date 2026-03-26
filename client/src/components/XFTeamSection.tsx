@@ -45,25 +45,11 @@ const naomiisms = [
     icon: "🎵",
   },
   {
-    title: "Canonical Everything",
-    description: "Create single sources of truth. One doc, one dashboard, one place where the answer lives. No hunting, no conflicting versions.",
-    icon: "📋",
-  },
-  {
     title: "Simplifiers",
     description: "The best solutions are the simplest ones. Complexity is the enemy of execution. Always ask: can this be simpler?",
     icon: "✨",
   },
-  {
-    title: "People and Process",
-    description: "Great outcomes require both great people and great processes. Invest in both — neither alone is sufficient.",
-    icon: "🤝",
-  },
-  {
-    title: "Building a Bench",
-    description: "Develop talent and build depth on your team. The strongest organizations have people ready to step up at every level.",
-    icon: "🌱",
-  },
+
 ];
 
 export default function XFTeamSection() {
@@ -162,7 +148,7 @@ export default function XFTeamSection() {
         >
           <div className="text-center mb-10">
             <h3 className="font-display text-3xl md:text-4xl font-bold mb-3" style={{ color: 'oklch(0.28 0.04 55)' }}>
-              The Naomi-isms
+              Cultural Values
             </h3>
             <p className="font-body text-base max-w-2xl mx-auto" style={{ color: 'oklch(0.45 0.04 55)' }}>
               Frameworks that define how our team thinks, builds, and operates. 

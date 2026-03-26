@@ -6,7 +6,7 @@ const stats = [
   { value: 35000, suffix: "+", label: "Org Size", sublabel: "Employees supported", color: "oklch(0.65 0.08 145)" },
   { value: 7, suffix: "", label: "Countries in 2026", sublabel: "And counting...", color: "oklch(0.72 0.14 70)" },
   { value: 25, suffix: "+", label: "Plant Babies", sublabel: "All thriving (mostly)", color: "oklch(0.65 0.08 145)" },
-  { value: 5, suffix: "", label: "Global Offices", sublabel: "Coordinated regularly", color: "oklch(0.72 0.08 15)" },
+  { value: 10, suffix: "+", label: "Global Offices", sublabel: "Coordinated regularly", color: "oklch(0.72 0.08 15)" },
   { value: 4, suffix: "", label: "Major Events", sublabel: "WEF, Cannes, MWC, Sun Valley", color: "oklch(0.62 0.14 45)" },
 ];
 
