@@ -36,7 +36,7 @@ const origins = [
     id: "sanfrancisco",
     label: "San Francisco, CA",
     emoji: "🌉",
-    description: "Where I currently live and work. Home base for supporting Meta's COO and the Cross-Meta Foundations org. The city where desert roots meet global tech.",
+    description: "Where I currently live and work. Home base for supporting Meta's COO and the Cross-Meta Foundations org.",
     position: { top: "36%", left: "11%" },
   },
 ];
