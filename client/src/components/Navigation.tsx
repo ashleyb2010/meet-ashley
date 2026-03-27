@@ -36,7 +36,7 @@ export default function Navigation() {
           backgroundColor: scrolled ? 'oklch(0.97 0.01 85 / 0.9)' : 'transparent',
         }}
       >
-        <div className="container flex items-center justify-between">
+        <div className="container flex items-center justify-center relative">
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-8">
@@ -55,7 +55,7 @@ export default function Navigation() {
           {/* Mobile hamburger */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="md:hidden flex flex-col gap-1.5 p-2"
+            className="md:hidden absolute right-4 flex flex-col gap-1.5 p-2"
             aria-label="Toggle menu"
           >
             <span className={`block w-6 h-0.5 transition-all duration-300 ${mobileOpen ? 'rotate-45 translate-y-2' : ''}`} style={{ backgroundColor: 'oklch(0.28 0.04 55)' }} />
