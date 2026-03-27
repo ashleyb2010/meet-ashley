@@ -6,7 +6,7 @@ const milestones = [
     year: "2010",
     title: "Claremont McKenna College",
     role: "Graduated Cum Laude",
-    description: "BA in International Relations & Anthropology. Honors thesis on electronic flirtation (ahead of my time, honestly). Research assistant at the Center for Human Rights Leadership.",
+    description: "BA in International Relations & Anthropology. Research assistant at the Center for Human Rights Leadership.",
     accent: "oklch(0.65 0.08 145)",
     side: "left" as const,
   },

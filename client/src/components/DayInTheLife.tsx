@@ -103,7 +103,7 @@ const agenda: AgendaItem[] = [
     duration: "45 min",
     title: "Core Team Meeting with Javi",
     type: "meeting",
-    attendees: ["Javi", "HR Lead", "Product Manager", "EA", "Me"],
+    attendees: ["Javi", "HR Lead", "PM", "EA & Me"],
     description: "Lead the inner circle syncs on everything happening across the org — readouts, upcoming priorities, and decisions needed.",
     details: [
       "Readouts from each function on key developments",
