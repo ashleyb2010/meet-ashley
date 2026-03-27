@@ -55,7 +55,7 @@ export default function ContactSection() {
             Say Hello
           </a>
           <a
-            href="https://www.linkedin.com/in/ashleybaugh"
+            href="https://www.linkedin.com/in/ashley-baugh-8a66a127"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-body text-sm font-semibold transition-all duration-300 hover:scale-105 border"
