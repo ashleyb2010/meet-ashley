@@ -74,7 +74,7 @@ export default function XFTeamSection() {
             The Organization
           </h2>
           <p className="font-body text-lg max-w-3xl" style={{ color: 'oklch(0.45 0.04 55)' }}>
-            The team under Javier Oliván includes Central Products, MAGIC, Monetization, Sales, 
+            The team under Javier Oliván includes Central Products, Marketing, Analytics, Monetization, Sales, 
             and Partnerships. Our team's culture is built on the foundation laid by three remarkable leaders 
             — and their shared DNA of international growth, data orientation, and relentless clarity.
           </p>
