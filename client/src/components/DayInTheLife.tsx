@@ -147,7 +147,24 @@ const agenda: AgendaItem[] = [
     color: "oklch(0.62 0.14 45)",
   },
   {
-    time: "1:30 PM",
+    time: "12:45 PM",
+    duration: "30 min",
+    title: "VIP Client Request Follow-ups",
+    type: "sync",
+    attendees: ["Partners Team"],
+    description: "Check in on progress for VIP client requests — things like account issues that need hands-on attention. Communicate updates back to Javi and the partner.",
+    details: [
+      "Review status of open VIP client escalations",
+      "Follow up with internal teams on resolution timelines",
+      "Draft progress updates for Javi with key context",
+      "Loop the partner in on next steps and expected resolution",
+      "Flag any blockers that need executive-level intervention",
+    ],
+    icon: "⭐",
+    color: "oklch(0.72 0.14 70)",
+  },
+  {
+    time: "1:15 PM",
     duration: "30 min",
     title: "External Meeting Brief Review",
     type: "prep",
@@ -162,7 +179,7 @@ const agenda: AgendaItem[] = [
     color: "oklch(0.72 0.14 70)",
   },
   {
-    time: "2:00 PM",
+    time: "1:45 PM",
     duration: "60 min",
     title: "Email & Follow-ups Workblock",
     type: "focus",
@@ -177,7 +194,7 @@ const agenda: AgendaItem[] = [
     color: "oklch(0.65 0.08 145)",
   },
   {
-    time: "3:00 PM",
+    time: "2:45 PM",
     duration: "45 min",
     title: "Morning Brief Prep",
     type: "prep",
