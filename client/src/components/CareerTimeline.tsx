@@ -46,7 +46,7 @@ const milestones = [
     year: "Feb 2021–Present",
     title: "Executive Operations, Office of the COO",
     role: "Supporting the COO of Meta",
-    description: "I support our COO across an org of 35,000+ employees. I grew and manage a global team of EAs, program managers, and project managers. I orchestrate regional visits across APAC, EMEA, the Americas, and Latin America. I manage executive presence at the World Economic Forum, Cannes, Mobile World Congress, and Sun Valley. I build the infrastructure that makes the office - and the org - run.",
+    description: "I support our COO across an org of 35,000+ employees. I grew and manage a global team of EAs, program managers, and project managers. I orchestrate regional visits across APAC, EMEA and the Americas. I manage executive presence at the World Economic Forum, Cannes, Mobile World Congress, and Sun Valley. I build the infrastructure that makes the office - and the org - run.",
     accent: "oklch(0.62 0.14 45)",
     side: "right" as const,
   },
