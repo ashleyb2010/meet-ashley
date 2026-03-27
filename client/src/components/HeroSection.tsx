@@ -85,10 +85,21 @@ export default function HeroSection() {
         </motion.div>
 
         <motion.div
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.8, duration: 0.7 }}
+          className="mt-8 max-w-2xl mx-auto"
+        >
+          <p className="font-body text-base md:text-lg leading-relaxed" style={{ color: 'oklch(0.40 0.04 55)' }}>
+            I keep one of the biggest teams in tech running smoothly. Meta — the company behind Facebook, Instagram, and WhatsApp — has a COO who oversees 35,000+ people worldwide. I lead his operations team: think chief of staff meets air traffic controller. I manage the people, the logistics, the briefings, and the behind-the-scenes work that makes everything click.
+          </p>
+        </motion.div>
+
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1, duration: 0.6 }}
-          className="mt-12"
+          transition={{ delay: 1.2, duration: 0.6 }}
+          className="mt-10"
         >
           <a
             href="#origins"
