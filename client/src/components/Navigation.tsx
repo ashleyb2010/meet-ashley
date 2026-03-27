@@ -37,9 +37,6 @@ export default function Navigation() {
         }}
       >
         <div className="container flex items-center justify-between">
-          <a href="#hero" className="font-handwritten text-2xl font-bold" style={{ color: 'oklch(0.62 0.14 45)' }}>
-            Ashley B.
-          </a>
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-8">
