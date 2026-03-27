@@ -56,7 +56,7 @@ const agenda: AgendaItem[] = [
     title: "Product Review",
     type: "meeting",
     attendees: ["Product Team", "Engineering Leads", "Design"],
-    description: "Help run a product review session where teams present progress, blockers, and upcoming milestones.",
+    description: "Help plan and orchestrate product review sessions where teams present progress, blockers, and upcoming milestones.",
     details: [
       "Example: The Messaging team presents their Q2 roadmap update",
       "Review key metrics and user engagement trends",
