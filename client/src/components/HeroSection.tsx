@@ -58,9 +58,6 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <p className="font-handwritten text-xl md:text-2xl mb-4" style={{ color: 'oklch(0.55 0.08 145)' }}>
-            Hey there, I'm
-          </p>
           <h1
             className="font-display text-6xl md:text-8xl lg:text-9xl font-bold mb-6 leading-tight"
             style={{ color: 'oklch(0.28 0.04 55)' }}
@@ -90,7 +87,7 @@ export default function HeroSection() {
           transition={{ delay: 0.8, duration: 0.7 }}
           className="mt-8 max-w-2xl mx-auto"
         >
-          <p className="font-body text-base md:text-lg leading-relaxed" style={{ color: 'oklch(0.40 0.04 55)' }}>
+          <p className="font-body text-sm md:text-base leading-relaxed" style={{ color: 'oklch(0.40 0.04 55)' }}>
             I keep one of the biggest teams in tech running smoothly. Meta — the company behind Facebook, Instagram, and WhatsApp — has a COO who oversees 35,000+ people worldwide. I lead his operations team: think chief of staff meets air traffic controller. I manage the people, the logistics, the briefings, and the behind-the-scenes work that makes everything click.
           </p>
         </motion.div>
