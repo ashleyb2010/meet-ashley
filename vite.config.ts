@@ -150,10 +150,17 @@ function vitePluginManusDebugCollector(): Plugin {
   };
 }
 
-const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
+const isGitHubBuild = !!process.env.GITHUB_ACTIONS;
+const plugins = [
+  react(),
+  tailwindcss(),
+  ...(!isGitHubBuild ? [jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector()] : []),
+];
 
 export default defineConfig({
+  base: process.env.GITHUB_ACTIONS ? '/meet-ashley/' : '/',
   plugins,
+
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
